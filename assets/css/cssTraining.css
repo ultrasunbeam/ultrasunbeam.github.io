@@ -42,3 +42,25 @@ span {
 #fourthDiv p {
     color: blue;
 }
+
+#sidebarBox {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    float: left;
+}
+
+div.flexContainer {
+    display: flex;
+    background-color: gold;
+    justify-content: space-between;
+    align-items: center;
+}
+
+div.flexContainer > div {
+    background-color: grey;
+    width: 100px;
+    height: 100px;
+    margin: 20px 50px;
+    padding: 20px;
+}
