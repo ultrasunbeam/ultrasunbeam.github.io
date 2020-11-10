@@ -64,3 +64,25 @@ div.flexContainer > div {
     margin: 20px 50px;
     padding: 20px;
 }
+
+a.stateStyling {
+    color: green;
+    text-decoration: underline;
+  }
+
+a.stateStyling:visited {
+    color: red;
+    text-decoration: underline;
+  }
+
+a.stateStyling:hover p {
+    background-color: green;
+    color: gold;
+}
+
+a.stateStyling:active p {
+    background-color: red;
+    color: gold;
+    text-decoratio: none;
+    border: 5px solid green;
+}

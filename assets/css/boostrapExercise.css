@@ -1,0 +1,26 @@
+.veggieText {
+    background-color: green;
+    color: white;
+    padding: 20px;
+}
+
+.riceText {
+    background-color: tomato;
+    color: white;
+    padding: 10px 20px;
+}
+
+.container-fluid.bentoBox {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.bentoBox p:first-child {
+    background: yellowgreen !important;
+    color: white;
+}
+
+.bentoBox .col-md-8 p {
+    background: lightsalmon;
+    color: white;
+}
