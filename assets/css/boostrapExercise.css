@@ -24,3 +24,46 @@
     background: lightsalmon;
     color: white;
 }
+
+
+/* boostrap vertical alignment */
+.gridExercise {
+    background-color: lightseagreen;
+    margin: 30px 0;
+}
+
+.parentTarget {
+    height: 200px;
+    background-color: lightgrey;
+    margin: 10px 0;
+}
+
+.parentTarget div {
+    height: 50px;
+    background-color: lightblue;
+    border: 1px solid black;
+}
+
+.gridExercise .height100 {
+    height: 100px;
+    background-color: lightcoral;
+    border: 1px solid black;
+}
+
+.height100 div {
+    height: 50px;
+    background-color: lightgreen;
+    border: 1px solid black;
+}
+
+/* grid activity div */
+.gridActivity{
+    background-color: pink;
+    margin: 100px 0;
+}
+
+.gridActTarget {
+    height: 100px;
+    background-color: lavender;
+    border: 1px solid green;
+}
