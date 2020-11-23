@@ -21,6 +21,7 @@
 
 img {
     border-radius: 50%;
+    height: 70px;
 }
 
 .container {
@@ -106,3 +107,9 @@ div h6 {
     border-radius: 50%;
     display: inline-block;
   }
+
+div h7 {
+    font-size: 15px;
+    font-style: italic;
+    font-weight: lighter;
+}
