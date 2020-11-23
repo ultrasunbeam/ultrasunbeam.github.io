@@ -103,13 +103,7 @@ div h6 {
     display: inline-block;
   }
 
-div .education h4 {
-    font-size: 15px!important;
-    font-style: italic!important;
-    font-weight: lighter!important;
-}
-
-div .projects h4 {
+div h4 {
     font-size: 15px!important;
     font-style: italic!important;
     font-weight: lighter!important;
