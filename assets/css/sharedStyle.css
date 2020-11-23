@@ -1,11 +1,10 @@
 .customNav {
-    background-color: lightseagreen;
+    background-color: darkgrey;
 }
 
 .customNav li.nav-item.active {
     color: white;
-    font-size: 20px;
-    text-decoration: underline;
+    font-size: 18px;
 }
 
 .customNav li.nav-item.active a {
@@ -13,10 +12,10 @@
 }
 
 .customNav li.nav-item.active a:hover{
-    color: red!important;
+    color: gold!important;
 }
 
 .customNav li.nav-item a:hover {
-    color: yellowgreen!important;
+    color: black!important;
 }
 
