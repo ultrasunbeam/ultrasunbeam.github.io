@@ -21,7 +21,7 @@
 
 img {
     border-radius: 50%;
-    height: 70px;
+    height: 50px auto;
 }
 
 .container {
@@ -36,11 +36,11 @@ img {
 
 
 
-div .nameTitle h1 {
+div .rightSide h1 {
     font-weight: bold;
 }
 
-div .nameTitle h5 {
+div .rightSide h5 {
     font-weight: lighter;
     font-style: italic;
 }
@@ -52,7 +52,7 @@ hr.borderLine {
   }
 
 div .contactInfo {
-    padding-left: 145px;
+    padding-left: 100px;
 }
 
 div h3 {
@@ -107,4 +107,16 @@ div h4 {
     font-size: 15px!important;
     font-style: italic!important;
     font-weight: lighter!important;
+}
+
+.rightSide {
+    padding: 25px;
+}
+
+.leftSide {
+    padding: 25px;
+}
+
+div .resumeContent {
+    padding: 20px;
 }
