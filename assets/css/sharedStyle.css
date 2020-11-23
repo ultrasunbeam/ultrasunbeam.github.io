@@ -69,3 +69,40 @@ div h4 {
     font-size: 18px;
     font-weight: bold;
 }
+
+div .row {
+    display: flex;
+
+}
+
+div .col-8 a {
+    color: #ffc107!important;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+p {
+    font-size: 15px;
+}
+
+div h6 {
+    font-size: 17px;
+    font-weight: bold;
+    color: gold;
+}
+
+.dot {
+    height: 15px;
+    width: 15px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+.dotFill {
+    height: 15px;
+    width: 15px;
+    background-color:gold;
+    border-radius: 50%;
+    display: inline-block;
+  }
