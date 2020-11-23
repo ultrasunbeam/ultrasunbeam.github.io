@@ -1,14 +1,14 @@
 .customNav {
-    background-color: darkgrey;
+    background-color: white;
 }
 
 .customNav li.nav-item.active {
-    color: white;
+    color: black;
     font-size: 18px;
 }
 
 .customNav li.nav-item.active a {
-    color: white!important;
+    color: gold!important;
 }
 
 .customNav li.nav-item.active a:hover{
@@ -30,4 +30,42 @@ img {
     margin-right: auto;
     margin-left: auto;
     margin-top: 50px;
+    display: flex;
+}
+
+
+
+div .nameTitle h1 {
+    font-weight: bold;
+}
+
+div .nameTitle h5 {
+    font-weight: lighter;
+    font-style: italic;
+}
+
+hr.borderLine {
+    border: 1px solid black;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+
+div .contactInfo {
+    padding-left: 145px;
+}
+
+div h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.intro p {
+    padding-left: 100px;
+    width: 550px;
+}
+
+div h4 {
+    font-size: 18px;
+    font-weight: bold;
 }
