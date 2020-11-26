@@ -20,28 +20,78 @@
     color: black!important;
 }
 
-/* Resume Containers and Divs */
+/* Resume Containers, Divs, and decoration */
 div.container.myResume {
-    background-color: lightyellow;
+    /*background-color: lightyellow;*/
+    padding: 20px;
+    max-width: 1300px;
+}
+
+hr.borderLine {
+    border: 0.5px solid black;
+}
+
+ul.no-bullets {
+    list-style-type: none;
+    margin: 10px;
     padding: 20px;
 }
 
+div.icons {
+    display: flex;
+    justify-content: flex-end;
+}
+
+a:hover {
+    color: black!important;
+}
+
+a:link {
+    color: black;
+}  
+
+a:visited {
+    color: grey;
+}
+
 /* Typography */
-h1 {
+h1.nameTitle {
+    font-family: Helvetica;
     font-display: flex;
-    margin: 20px;
     padding-top: 30px;
     font-weight: bolder!important;
     font-size: 36px!important;
 }
 
-h2 {
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 20px;
-    padding-bottom: 20px;
+h2.jobTitle {
+    font-family: Helvetica;
     font-weight: lighter;
     font-style: italic;
     font-size: 20px!important;
+}
+
+h3.sectionTitle {
+    font-family: Helvetica;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+p.bodyText {
+    font-size: 14px;
+    font-family: Helvetica;
+    font-weight: normal;
+    padding: 20px;
+    margin-left: 20px;
+}
+
+.center {
+    text-align: center;
+}
+
+li {
+    font-size: 14px;
+    font-family: Helvetica;
+    font-weight: normal;
 }
 
 /* Resume Image */
@@ -50,6 +100,13 @@ img.responsive.yellowPortrait {
     max-width: 275px;
     width: 100%;
     height: auto;
+}
+
+img.responsive.sunLogo {
+    max-width: 200px;
+    width: 100%;
+    height: auto;
+    padding: 20px;
 }
 
 /* Media queries */
