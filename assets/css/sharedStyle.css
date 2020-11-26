@@ -120,3 +120,10 @@ div h4 {
 div .resumeContent {
     padding: 20px;
 }
+
+/* Media queries */
+@media (max-width: 768px) {
+    .myResume {
+        border-width: 0px;
+    }
+}
