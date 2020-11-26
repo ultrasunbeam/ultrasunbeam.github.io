@@ -1,3 +1,4 @@
+/* Navbar CSS */
 .customNav {
     background-color: white;
 }
@@ -19,106 +20,36 @@
     color: black!important;
 }
 
-img {
-    border-radius: 50%;
-    height: 50px auto;
+/* Resume Containers and Divs */
+div.container.myResume {
+    background-color: lightyellow;
+    padding: 20px;
 }
 
-.container {
-    width: 100%;
-    padding-right: 20px;
-    padding-left: 20px;
-    margin-right: 20px;
-    margin-left: 20px;
-    margin-top: 50px;
-    display: flex;
+/* Typography */
+h1 {
+    font-display: flex;
+    margin: 20px;
+    padding-top: 30px;
+    font-weight: bolder!important;
+    font-size: 36px!important;
 }
 
-
-
-div .rightSide h1 {
-    font-weight: bold;
-}
-
-div .rightSide h5 {
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+    padding-bottom: 20px;
     font-weight: lighter;
     font-style: italic;
+    font-size: 20px!important;
 }
 
-hr.borderLine {
-    border: 1px solid black;
-    margin-bottom: 20px;
-    margin-top: 20px;
-  }
-
-div .contactInfo {
-    padding-left: 100px;
-}
-
-div h3 {
-    font-size: 20px;
-    font-weight: bold;
-    margin-bottom: 20px;
-}
-
-.intro p {
-    padding-left: 100px;
-    width: 550px;
-}
-
-div .row {
-    display: flex;
-
-}
-
-div .col-8 a {
-    color: #ffc107!important;
-    text-decoration: none;
-    background-color: transparent;
-}
-
-p {
-    font-size: 15px;
-}
-
-div h6 {
-    font-size: 17px;
-    font-weight: bold;
-    color: gold;
-}
-
-.dot {
-    height: 15px;
-    width: 15px;
-    background-color: #bbb;
+/* Resume Image */
+img.responsive.yellowPortrait {
     border-radius: 50%;
-    display: inline-block;
-  }
-
-.dotFill {
-    height: 15px;
-    width: 15px;
-    background-color:gold;
-    border-radius: 50%;
-    display: inline-block;
-  }
-
-div h4 {
-    font-size: 15px!important;
-    font-style: italic!important;
-    font-weight: lighter!important;
-}
-
-.rightSide {
-    padding: 25px;
-}
-
-.leftSide {
-    padding: 25px;
-}
-
-div .resumeContent {
-    padding: 20px;
+    max-width: 275px;
+    width: 100%;
+    height: auto;
 }
 
 /* Media queries */
