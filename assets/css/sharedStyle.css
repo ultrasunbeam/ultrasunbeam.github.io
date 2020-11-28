@@ -53,6 +53,40 @@ a:visited {
     color: grey;
 }
 
+div.skillList {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.dot {
+    height: 15px;
+    width: 15px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block; 
+}
+
+.dotFill {
+    height: 15px;
+    width: 15px;
+    background-color:gold;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+div.col-sm-6.leftSide {
+    display: flex;
+    justify-content: flex-end;
+}
+
+div.technicalSkillsContent {
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+
+
 /* Typography */
 h1.nameTitle {
     font-family: Helvetica;
@@ -96,7 +130,7 @@ li {
 /* Resume Image */
 img.responsive.yellowPortrait {
     border-radius: 50%;
-    max-width: 275px;
+    max-width: 300px;
     width: 100%;
     height: auto;
 }
