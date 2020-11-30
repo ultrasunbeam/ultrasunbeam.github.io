@@ -5,7 +5,7 @@
 
 .customNav li.nav-item.active {
     color: black;
-    font-size: 18px;
+    font-size: 15px;
 }
 
 .customNav li.nav-item.active a {
@@ -163,11 +163,4 @@ img.responsive.sunLogo {
     width: 100%;
     height: auto;
     padding: 20px;
-}
-
-/* Media queries */
-@media (max-width: 768px) {
-    .myResume {
-        border-width: 0px;
-    }
 }
