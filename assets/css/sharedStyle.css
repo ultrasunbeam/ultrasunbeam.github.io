@@ -42,7 +42,7 @@ div.icons {
 }
 
 a:hover {
-    color: black!important;
+    color: gold!important;
 }
 
 a:link {
@@ -50,7 +50,7 @@ a:link {
 }  
 
 a:visited {
-    color: grey;
+    color: black;
 }
 
 div.skillList {
