@@ -5,19 +5,19 @@
 
 .customNav li.nav-item.active {
     color: black;
-    font-size: 15px;
+    font-size: 14px;
 }
 
 .customNav li.nav-item.active a {
-    color: gold!important;
+    color: black!important;
 }
 
 .customNav li.nav-item.active a:hover{
-    color: black!important;
+    color: gold!important;
 }
 
 .customNav li.nav-item a:hover {
-    color: black!important;
+    color: gold!important;
 }
 
 /* Resume Containers, Divs, and decoration */
