@@ -86,6 +86,11 @@ div.skillCircleBar {
     text-align: left;
 }
 
+a.btn-dark {
+    background-color: black;
+    color: white;
+}
+
 
 
 /* Typography */
@@ -148,6 +153,11 @@ li {
     font-size: 14px;
     font-family: Helvetica;
     font-weight: normal;
+}
+
+.contactHeader h1 {
+    text-align: center;
+    padding: 100px;
 }
 
 /* Resume Image */
