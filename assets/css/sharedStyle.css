@@ -177,6 +177,26 @@ h2.contactSubHeader {
     padding-bottom: 20px;
 }
 
+h5.cardTitle {
+    font-family: Helvetica;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+p.cardText {
+    font-family: Helvetica;
+    font-size: 12px;
+}
+
+h1.portfolioHeader {
+    text-align: center;
+    padding: 50px;
+    font-family: Helvetica;
+    font-weight: bolder!important;
+    font-size: 36px!important;
+}
+
 /* Resume Image */
 img.responsive.yellowPortrait {
     border-radius: 50%;
@@ -193,7 +213,15 @@ img.responsive.sunLogo {
 }
 
 /* Contact CSS */
-
 div.container.contactForm {
     padding: 40px;
+}
+
+/* Portfolio CSS */
+div.row.projectCards {
+    padding: 30px;
+}
+
+.card {
+    margin: 30px;
 }
