@@ -1,6 +1,6 @@
 /* Navbar CSS */
 .customNav {
-    background-color: white;
+    background-color: none;
 }
 
 .customNav li.nav-item.active {
@@ -21,7 +21,7 @@
 }
 
 /* Resume Containers, Divs, and decoration */
-div.container.myResume {
+div.container-fluid.myResume {
     padding: 20px;
     max-width: 1300px;
 }
@@ -88,6 +88,11 @@ div.skillCircleBar {
 
 a.btn-dark {
     background-color: black;
+    color: white;
+}
+
+a.btn-dark a:hover {
+    background-color: gold;
     color: white;
 }
 
