@@ -102,6 +102,7 @@ h1.nameTitle {
     font-size: 36px!important;
 }
 
+
 h2.jobTitle {
     font-family: Helvetica;
     font-weight: lighter;
@@ -155,9 +156,20 @@ li {
     font-weight: normal;
 }
 
-.contactHeader h1 {
+h1.contactHeader {
     text-align: center;
-    padding: 100px;
+    padding: 20px;
+    font-family: Helvetica;
+    font-weight: bolder!important;
+    font-size: 36px!important;
+}
+
+h2.contactSubHeader {
+    text-align: center;
+    font-family: Helvetica;
+    font-weight: lighter;
+    font-size: 20px!important;
+    padding-bottom: 20px;
 }
 
 /* Resume Image */
@@ -173,4 +185,14 @@ img.responsive.sunLogo {
     width: 100%;
     height: auto;
     padding: 20px;
+}
+
+/* Contact CSS */
+
+i.fab.fa-instagram {
+    padding-left: ;
+}
+
+div.container.contactForm {
+    padding: 40px;
 }
