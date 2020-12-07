@@ -199,6 +199,11 @@ h1.portfolioHeader {
     font-size: 50px!important;
 }
 
+h5.modal-title {
+    font-family: 'Orbitron', sans-serif;
+    color: white;
+}
+
 
 /* Resume Image */
 img.responsive.yellowPortrait {
@@ -242,4 +247,8 @@ div.card-body {
 img.contactPhoto {
     border-radius: 50%;
     max-width: 200px;
+}
+
+.modal-content {
+    background-color: black!important;
 }
