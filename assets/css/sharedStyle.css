@@ -175,6 +175,7 @@ h2.contactSubHeader {
     font-weight: lighter;
     font-size: 20px!important;
     padding-bottom: 20px;
+    max-width: 600px;
 }
 
 h5.cardTitle {
@@ -235,4 +236,9 @@ div.row.projectCards {
 
 div.card-body {
     background-color: black;
+}
+
+img.contactPhoto {
+    border-radius: 50%;
+    max-width: 200px;
 }
