@@ -116,7 +116,7 @@ h2.jobTitle {
 }
 
 h3.sectionTitle {
-    font-family: Helvetica;
+    font-family: 'Orbitron', sans-serif;
     font-size: 18px;
     font-weight: bold;
 }
@@ -202,6 +202,10 @@ h1.portfolioHeader {
 h5.modal-title {
     font-family: 'Orbitron', sans-serif;
     color: white;
+}
+
+a.instaLink {
+    font-weight: bolder;
 }
 
 
